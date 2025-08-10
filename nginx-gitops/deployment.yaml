@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: nginx
-  namespace: dev    # <-- Namespace goes here
+ # namespace: dev    # <-- Namespace goes here
 spec:
   replicas: 1
   selector:
