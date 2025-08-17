@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: rajeshnimmana/dockerbuild:latest
+          image: rajeshnimmana/dockerbuild:latest1
           ports:
             - containerPort: 80
