@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: Tomcat
+  name: tomcat
  # namespace: dev    # <-- Namespace goes here
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: Tomcat
+      app: tomcat
   template:
     metadata:
       labels:
-        app: Tomcat
+        app: tomcat
     spec:
       containers:
-      - name: Tomcat
-        image: Tomcat
+      - name: tomcat
+        image: tomcat
         ports:
         - containerPort: 8081
