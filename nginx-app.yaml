@@ -11,7 +11,7 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
-    namespace: dev 
+    namespace: tomcat 
   syncPolicy:
     automated:
       selfHeal: true
