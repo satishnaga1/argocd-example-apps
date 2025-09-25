@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: Prod-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: Prod
+  template:
+    metadata:
+      labels:
+        app: Prod
+    spec:
+      containers:
+      - name: Prod
+        image: rajeshnimmana/dockerbuild:vWeatherapp20250925111504
+        ports:
+        - containerPort: 5001
