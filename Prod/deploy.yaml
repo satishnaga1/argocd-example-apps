@@ -16,4 +16,4 @@ spec:
       - name: prod
         image: rajeshnimmana/dockerbuild:vWeatherapp20250925114928
         ports:
-        - containerPort: 5001
+        - containerPort: 8081
