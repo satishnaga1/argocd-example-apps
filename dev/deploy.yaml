@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: demo-app
-        image: rajeshnimmana/dockerbuild:vWeatherapp20251119045535
+        image: rajeshnimmana/dockerbuild:vWeatherapp20251119145417
         ports:
         - containerPort: 5000
